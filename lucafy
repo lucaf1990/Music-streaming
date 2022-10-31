@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registrazione Lucafy</title>
+</head>
+<body>
+<h1>Registrati</h1>
+ <P>Compila tutti i campi</P>
+<form onsubmit="alert('Registrazione avvenuta con successo')"> 
+<div><input type="text" placeholder="Nome"></div> 
+<P></P>
+<div><input type="text" placeholder="Cognome"></div> 
+<P></P>
+<div"><input type="email" placeholder="Indirizzo Email"> </div>
+<P></P>
+<div><input type="password" placeholder="Password"></div>
+<P></P>
+<div> <input type="date" placeholder="Data di nascita"></div>
+<P></P>
+<div><input type="number" placeholder="Numero di Telefono"></div>
+<P></P>
+<input type="checkbox" placeholder="pop"> <label for="pop">Pop</label> 
+<input type="checkbox" placeholder="Hip-hop"> <label for="Hip-Hop"> Hip-Hop 
+<input type="checkbox" placeholder="country"> <label for="Country"> Country</label>
+<P></P>
+<div>
+    <input type="checkbox" placeholder="Classica"> <label for="classica"> Classica</label>
+    <input type="checkbox" placeholder="Jazz"> <label for="jazz"> Jazz 
+    <input type="checkbox" placeholder="Italiana"> <label for="Italiana">Italiana</label>
+</div>
+<P></P>
+<div><input type="radio" placeholder="Accettazione termini"> <label for="Termini, condizioni">Accetto termini e condizioni previste dall'offerta</label></div>
+<P></P>
+<button type="submit">Invia Form</button>
+</Form>
+</body>
+</html>
